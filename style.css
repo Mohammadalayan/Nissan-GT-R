@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+   color: white ;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    display: inline-flex;
+}
+#logo{
+    width: 150px;
+    height: 120px;
+    display: inline-flex;
+    border-radius:10px;
+margin:3px
+}
+.al{
+    display:flex;
+}
+a{
+    color:white;    
+text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    display:inline-flex;
+    margin-left: 640px;
+
+}
+li{
+padding:45px;
+font-size: 26px;
+justify-content: space-between;
+}
+
+a:hover{
+    padding:4px;
+    font-size: 26px;
+    justify-content: space-between;
+    color:#0056b3;
+    transition: 0.1s;
+}
+#vi{
+    height: 650px;
+   max-width:1100px ;
+    margin-top: 15px;
+    margin-left: 235px;
+}
+.cont{
+    background-image: url(3928401.jpg);
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-top:30px ;
+}
+span{
+color: red;
+}
+h2{
+text-align: center;
+color: white;
+font-size: 33px;
+margin-top: 20px;
+}
+
+.l{
+    padding: 19px;
+    font-size: 24px;
+}
+ol{
+    list-style-type: none;
+    margin-top: 59px;
+    margin-left: 218px;
+}
+
+
+button {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    margin-left:700px ;
+    margin-top: 7px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+p{
+    
+    margin-top: 1px;
+    font-size:23px;
+    margin-left: 235px;
+}
+img{
+    margin-top: 25px;
+    height: 700px;
+    width: 1100px;
+    margin-left:235px;
+    margin-right: 30px;
+}
